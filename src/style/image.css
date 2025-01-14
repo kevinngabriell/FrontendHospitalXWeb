@@ -1,0 +1,9 @@
+.default-image{
+    max-width: 100%;
+}
+
+.carousel-image{
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}
