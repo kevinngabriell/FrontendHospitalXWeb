@@ -4,7 +4,6 @@ h3 {
 
 p {
     margin-top: 0;
-    margin-bottom: 7%; 
     font-size: 0.8rem;
 }
 
@@ -15,4 +14,10 @@ p {
 .carousel-p{
     font-size: 0.8rem;
     text-align: center;
+}
+
+.label{
+    font-weight: 700;
+    margin-bottom: 1%;
+    font-size: 1rem;
 }

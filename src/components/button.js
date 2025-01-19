@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import '../style/style.css';
 import { LoginProcess } from '../process/Login';
 
-function Button ({type, text, func, data}){
+function Button ({type, text, func, data, path}){
     const navigate = useNavigate();
 
     const onClick = () => {
@@ -35,6 +35,12 @@ function Button ({type, text, func, data}){
             console.log('Gagal bos')
           }
 
+        } else if (func === "NewSoftwarePackage"){
+
+          console.log(data.packageType);
+
+        } else {
+          navigate(path);
         }
       };
 

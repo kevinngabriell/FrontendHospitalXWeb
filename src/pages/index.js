@@ -51,7 +51,7 @@ function Login ({isLoginNotValid}) {
                 {notValidLogin ? (
                     <p>Your username or password is not valid !!</p>
                 ) : (
-                    <p style={{width: "60%"}}>Welcome to Hospital X, where we provide exceptional healthcare services with a focus on
+                    <p style={{width: "60%", marginBottom: "7%"}}>Welcome to Hospital X, where we provide exceptional healthcare services with a focus on
                 patient satisfaction. Log in to access your account, manage appointments, and others</p>
                 )}
                 <FormComponent placeholder={'Please input your username'} type={'email'} value={username} onChange={setUsername} onKeyDown={handleKeyPress}/>
